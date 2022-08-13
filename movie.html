@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/movie.less" />
+</head>
+<body>
+<!-- header -->
+<header>
+  <div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+        data-toggle="dropdown">
+      广州
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">深圳</a>
+      </li>
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">上海</a>
+      </li>
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">北京</a>
+      </li>
+    </ul>
+  </div>
+  <div class="selectTap">
+    <a atl="">正在热映</a>
+    <a atl="">即将上映</a>
+  </div>
+  <div class="scan">
+    <img src="./assets/images/icon/search_icon.png" alt="" class="img-responsive">
+  </div>
+</header>
+  
+<div class="nav">
+    <div class="movie">
+        <div class="data">
+            <img src="./assets/images/icon/data_icon.png" alt="">
+            <h5>实时票房</h5>
+            <p>2019-03-27</p>
+        </div>
+        <div class="market">
+            <h5>今日大盘</h5>
+            <p>2918万</p>
+            <img src="./assets/images/icon/polygon_icon.png" alt="" class="img-responsive">
+        </div>
+    </div>
+</div>
+
+<!-- list -->
+<div class="movieList">
+    <div class="listItem">
+        <div class="main-img">
+            <img src="./assets/images/source/movie_1.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="main-info">
+            <h5>八佰</h5>
+            <p>导演：管虎</p>
+            <div class="infoList">
+                <p>主演：</p>
+                <div class="infoItem">
+                  <p>黄志忠</p>
+                  <p>欧豪</p>
+                  <p>王千源</p>
+                </div>
+            </div>
+            <div class="main-label">
+                <p>2D</p>
+                <p>国语</p>
+                <p>中国巨幕</p>
+            </div>
+            <div class="main-star">
+                <img src="./assets/images/icon/star_icon.png" alt="">
+                <img src="./assets/images/icon/star_icon.png" alt="">
+                <img src="./assets/images/icon/star_icon.png" alt="">
+                <img src="./assets/images/icon/star_icon.png" alt="">
+                <img src="./assets/images/icon/star_icon.png" alt="">
+                <p>10分</p>
+            </div>
+            <p>上映时间：2020-08-01</p>
+        </div>
+        <div class="mianBtn">
+          <button>购票</button>
+        </div>
+        
+    </div>
+
+    <div class="listItem">
+      <div class="main-img">
+          <img src="./assets/images/source/movie_5.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="main-info">
+          <h5>寻梦环游记</h5>
+          <p>导演：李·昂克里奇</p>
+          <div class="infoList">
+              <p>主演：</p>
+              <div class="infoItem">
+                <p>安东尼·冈萨雷斯</p>
+              </div>
+          </div>
+          <div class="main-label">
+              <p>2D</p>
+              <p>英语</p>
+              <p>中国巨幕</p>
+          </div>
+          <div class="main-star">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <p>10分</p>
+          </div>
+          <p>上映时间：2020-08-01</p>
+      </div>
+      <div class="mianBtn">
+        <button>购票</button>
+      </div>
+    </div>
+
+    <div class="listItem">
+      <div class="main-img">
+          <img src="./assets/images/source/movie_4.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="main-info">
+          <h5>哈利波特与魔法石</h5>
+          <p claas="actor">导演：克里斯·哥伦布</p>
+          <div class="infoList">
+              <p>主演：</p>
+              <div class="infoItem">
+                <p>丹尼尔·雷德克里夫</p>
+              </div>
+          </div>
+          <div class="main-label">
+              <p>2D</p>
+              <p>英语</p>
+              <p>中国巨幕</p>
+          </div>
+          <div class="main-star">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <p>10分</p>
+          </div>
+          <p>上映时间：2019-03-27</p>
+      </div>
+      <div class="mianBtn">
+        <button>购票</button>
+      </div>
+    </div>
+
+    <div class="listItem">
+      <div class="main-img">
+          <img src="./assets/images/source/movie_2.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="main-info">
+          <h5>我在时间尽头等你</h5>
+          <p>导演：姚婷婷</p>
+          <div class="infoList">
+              <p>主演：</p>
+              <div class="infoItem">
+                <p>李鸿其</p>
+                <p>李一桐</p>
+                <p>范伟</p>
+              </div>
+          </div>
+          <div class="main-label">
+              <p>2D</p>
+              <p>国语</p>
+              <p>中国巨幕</p>
+          </div>
+          <div class="main-star">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <img src="./assets/images/icon/star_icon.png" alt="">
+              <p>10分</p>
+          </div>
+          <p>上映时间：2020-08-01</p>
+      </div>
+      <div class="mianBtn">
+        <button>购票</button>
+      </div>
+    </div>
+
+    <div class="listItem">
+      <div class="main-img">
+          <img src="./assets/images/source/movie_3.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="main-info">
+          <h5>荞麦疯长</h5>
+          <p>导演：徐展雄</p>
+          <div class="infoList">
+              <p>主演：</p>
+              <div class="infoItem">
+                <p>前小库</p>
+                <p>大飞</p>
+                <p>张思思</p>
+              </div>
+          </div>
+          <div class="main-label">
+              <p>2D</p>
+              <p>国语</p>
+              <p>中国巨幕</p>
+          </div>
+          <div class="main-star">
+              <img src="./assets/images/icon/star_icon.png" alt="" class="img-responsive">
+              <img src="./assets/images/icon/star_icon.png" alt="" class="img-responsive">
+              <img src="./assets/images/icon/star_icon.png" alt="" class="img-responsive">
+              <img src="./assets/images/icon/star_icon.png" alt="" class="img-responsive">
+              <img src="./assets/images/icon/star_icon.png" alt="" class="img-responsive">
+              <p>10分</p>
+          </div>
+          <p class="movieTime">上映时间：2020-08-25</p>
+      </div>
+      <div class="mianBtn">
+        <button>购票</button>
+      </div>
+    </div>
+
+
+
+</div>
+<!-- footer -->
+<footer class="footer">
+  <a class="item" href="index.html">
+    <span class="glyphicon glyphicon-home"></span>
+    <span>首页</span>
+  </a>
+  <a class="item" href="movie.html">
+    <span class="glyphicon glyphicon-film checked"></span>
+    <span class="checked">电影</span>
+  </a>
+  <a class="item" href="cinema.html">
+    <span class="glyphicon glyphicon-facetime-video"></span>
+    <span>电影院</span>
+  </a>
+  <a class="item" href="./find.html">
+    <span class="glyphicon glyphicon-globe"></span>
+    <span>发现</span>
+  </a>
+  <a class="item" href="./mine.html">
+    <span class="glyphicon glyphicon-user"></span>
+    <span>我的</span>
+  </a>
+</footer>
+</body>
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

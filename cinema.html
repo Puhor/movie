@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/cinema.less" />
+</head>
+<body>
+<!-- header -->
+<header>
+  <div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+        data-toggle="dropdown">
+      广州
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">深圳</a>
+      </li>
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">上海</a>
+      </li>
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" href="#">北京</a>
+      </li>
+    </ul>
+  </div>
+  <div class="cinemaName">
+    <h5>电影院</h5>
+  </div>
+  <div class="scan">
+    <img src="./assets/images/icon/search_icon.png" alt="" class="img-responsive">
+  </div>
+</header>
+  
+<!-- cinemaNav -->
+<div class="cinemaNav">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            区域 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">天河区</a></li>
+          <li><a href="#">海珠区</a></li>
+          <li><a href="#">白云区</a></li>
+          <li><a href="#">番禺区</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            品牌 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">万达</a></li>
+          <li><a href="#">博纳</a></li>
+          <li><a href="#">中影</a></li>
+          <li><a href="#">光线</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            距离 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">1km</a></li>
+          <li><a href="#">2km</a></li>
+          <li><a href="#">5km</a></li>
+          <li><a href="#">10km</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            筛选 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">零食</a></li>
+          <li><a href="#">MAX厅</a></li>
+          <li><a href="#">中国巨幕</a></li>
+          <li><a href="#">停车场</a></li>
+        </ul>
+      </div>
+</div>
+
+<!-- banner -->
+<div class="cinemaBanner">
+    <img src="./assets/images/source/ad_1.png" alt="" class="img-responsive">
+</div>
+
+<div class="movieList">
+    <div class="listItem">
+      <div class="top">
+        <div class="fire">
+          <img src="./assets/images/icon/fire_icon.png" alt="" class="img-responsive">
+          <p>人气影院</p>
+        </div>
+        <a href="#">查看全部</a>
+      </div>
+      <div class="main">
+        <div class="name">
+          <p>嘉年华国际影城(北路店)</p>
+          <div class="rank">
+            <img src="./assets/images/icon/rank_icon.png" alt="" class="img-responsive">
+            <p>人气5000</p>
+          </div>
+        </div>
+        <p class="address">南宁市某某某路4楼</p>
+        <div class="text">
+          <div class="tap">
+            <p style="background-color: #fbc216;">零食</p>
+            <p style="background-color: #a05bf6;">MAX厅</p>
+            <p style="background-color: #38c566;">中国巨幕厅</p>
+            <p style="background-color: #21c3f8;">停车场</p>
+          </div>
+          <p class="km">1.1km</p>
+        </div>
+        <div class="textbot">
+            <div class="distext">
+              <p style="background-color: #38c566;">卡</p> 
+              <p>开通会员卡8折购票</p>
+              <p style="background-color: #a05bf6;">团</p>
+              <p>组团购票优惠8折起</p>
+            </div>
+            <div class="price">
+              <img src="./assets/images/icon/price_icon.png" alt="">
+              <p>19.9<span>起</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="listItem">
+      <div class="top">
+        <div class="fire">
+          <img src="./assets/images/icon/fire_icon.png" alt="" class="img-responsive">
+          <p>人气影院</p>
+        </div>
+        <a href="#">查看全部</a>
+      </div>
+      <div class="main">
+        <div class="name">
+          <p>嘉年华国际影城(北路店)</p>
+          <div class="rank">
+            <img src="./assets/images/icon/rank_icon.png" alt="" class="img-responsive">
+            <p>人气5000</p>
+          </div>
+        </div>
+        <p class="address">南宁市某某某路4楼</p>
+        <div class="text">
+          <div class="tap">
+            <p style="background-color: #fbc216;">零食</p>
+            <p style="background-color: #a05bf6;">MAX厅</p>
+            <p style="background-color: #38c566;">中国巨幕厅</p>
+            <p style="background-color: #21c3f8;">停车场</p>
+          </div>
+          <p class="km">1.1km</p>
+        </div>
+        <div class="textbot">
+          <div class="distext">
+            <p style="background-color: #38c566;">卡</p> 
+            <p>开通会员卡8折购票</p>
+            <p style="background-color: #a05bf6;">团</p>
+            <p>组团购票优惠8折起</p>
+          </div>
+          <div class="price">
+            <img src="./assets/images/icon/price_icon.png" alt="">
+            <p>19.9<span>起</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+  
+    <div class="listItem">
+      <div class="top">
+        <div class="fire">
+          <img src="./assets/images/icon/fire_icon.png" alt="" class="img-responsive">
+          <p>人气影院</p>
+        </div>
+        <a href="#">查看全部</a>
+      </div>
+      <div class="main">
+        <div class="name">
+          <p>嘉年华国际影城(北路店)</p>
+          <div class="rank">
+            <img src="./assets/images/icon/rank_icon.png" alt="" class="img-responsive">
+            <p>人气5000</p>
+          </div>
+        </div>
+        <p class="address">南宁市某某某路4楼</p>
+        <div class="text">
+          <div class="tap">
+            <p style="background-color: #fbc216;">零食</p>
+            <p style="background-color: #a05bf6;">MAX厅</p>
+            <p style="background-color: #38c566;">中国巨幕厅</p>
+            <p style="background-color: #21c3f8;">停车场</p>
+          </div>
+          <p class="km">1.1km</p>
+        </div>
+        <div class="textbot">
+          <div class="distext">
+            <p style="background-color: #38c566;">卡</p> 
+            <p>开通会员卡8折购票</p>
+            <p style="background-color: #a05bf6;">团</p>
+            <p>组团购票优惠8折起</p>
+          </div>
+          <div class="price">
+            <img src="./assets/images/icon/price_icon.png" alt="">
+            <p>19.9<span>起</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+  
+    <div class="listItem">
+      <div class="top">
+        <div class="fire">
+          <img src="./assets/images/icon/fire_icon.png" alt="" class="img-responsive">
+          <p>人气影院</p>
+        </div>
+        <a href="#">查看全部</a>
+      </div>
+      <div class="main">
+        <div class="name">
+          <p>嘉年华国际影城(北路店)</p>
+          <div class="rank">
+            <img src="./assets/images/icon/rank_icon.png" alt="" class="img-responsive">
+            <p>人气5000</p>
+          </div>
+        </div>
+        <p class="address">南宁市某某某路4楼</p>
+        <div class="text">
+          <div class="tap">
+            <p style="background-color: #fbc216;">零食</p>
+            <p style="background-color: #a05bf6;">MAX厅</p>
+            <p style="background-color: #38c566;">中国巨幕厅</p>
+            <p style="background-color: #21c3f8;">停车场</p>
+          </div>
+          <p class="km">1.1km</p>
+        </div>
+        <div class="textbot">
+          <div class="distext">
+            <p style="background-color: #38c566;">卡</p> 
+            <p>开通会员卡8折购票</p>
+            <p style="background-color: #a05bf6;">团</p>
+            <p>组团购票优惠8折起</p>
+          </div>
+          <div class="price">
+            <img src="./assets/images/icon/price_icon.png" alt="">
+            <p>19.9<span>起</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- footer -->
+<footer class="footer">
+  <a class="item" href="index.html">
+    <span class="glyphicon glyphicon-home"></span>
+    <span>首页</span>
+  </a>
+  <a class="item" href="movie.html">
+    <span class="glyphicon glyphicon-film checked"></span>
+    <span class="checked">电影</span>
+  </a>
+  <a class="item" href="./cinema.html">
+    <span class="glyphicon glyphicon-facetime-video dianyy"></span>
+    <span class="dianyy" >电影院</span>
+  </a>
+  <a class="item" href="./find.html">
+    <span class="glyphicon glyphicon-globe"></span>
+    <span>发现</span>
+  </a>
+  <a class="item" href="./mine.html">
+    <span class="glyphicon glyphicon-user"></span>
+    <span>我的</span>
+  </a>
+</footer>
+</body>
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

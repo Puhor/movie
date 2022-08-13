@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    // padding: 0% 1%;
+    margin: 3vw 0;
+    align-items: center;
+    .dropdown{
+        .btn{
+            color: #fff;
+            border-radius: 0px;
+            background: #000;
+            font-size: 3.9vw;
+        }
+        .dropdown-menu{
+            background: #000;
+            border-radius: 0px;
+            
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .search{
+        display: flex;
+        width: 69.5vw;
+        height: 8.8vw;
+        background: #444242;
+        border-radius: 5.3vw;
+        // background-color: #444242;
+        align-items: center;
+
+        img{
+            width: 4.5vw;
+            height: 4.8vw;
+            margin:0 2.6vw;
+            max-width: 100%;
+            border: 0;
+            vertical-align: middle;
+        }
+
+        input{
+            background: #444242;
+            border: 0;
+            color: #fff;
+            font-size: 3.7vw;
+        }
+    }
+
+    .scan{
+        width: 5.6vw;
+        height: 5.1vw;
+        margin-right: 2vw;
+        img{
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+}
+
+/* 底部 */
+.footer{
+    width:100%;
+    position: sticky;
+    left:0;
+    bottom:0;
+    background:#222426;
+    z-index:10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item{
+        width:18%;
+        padding:3% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        transition: all ease-in-out .3s;
+
+        .glyphicon{
+            color: #666;
+        }
+        &:hover{
+            span{
+                color:#F73171;
+            }
+        }
+
+        span{
+            width:100%;
+            text-align: center;
+            font-size: 2.7vw;
+            margin-top: 1.6vw;
+            color:#fff;
+
+            &:first-child{
+                margin-bottom:5px;
+                font-size:5vw;
+            }
+
+            &:last-child{
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+}
